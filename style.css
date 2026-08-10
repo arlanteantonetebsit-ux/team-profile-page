@@ -155,12 +155,12 @@ body {
 }
 /* Blue gradient border around every picture */
 .team-card img {
-  border: 3px solid transparent !important;
+  border: 2px solid transparent !important;
   border-radius: 50% !important;
   background: linear-gradient(90deg, #084B7A, #009688) !important;
   background-origin: border-box !important;
   background-clip: border-box !important;
-  padding: 3px !important;
+  padding: 1px !important;
   width: 150px;
   height: 150px;
   object-fit: cover;
