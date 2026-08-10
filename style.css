@@ -153,12 +153,15 @@ body {
   font-size: 36px;
   margin: 0;
 }
-/* Turn gray card headers into BLUE gradient */
-.team-card::after {
-  content: '';
-  display: block;
-  height: 60px;
+/* Blue gradient border around every picture */
+.team-card img {
+  border: 5px solid transparent !important;
+  border-radius: 50% !important;
   background: linear-gradient(90deg, #084B7A, #009688) !important;
-  margin: 10 px auto 0;
-  border-radius: 2px;
+  background-origin: border-box !important;
+  background-clip: border-box !important;
+  padding: 5px !important;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
