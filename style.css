@@ -133,3 +133,23 @@ body {
   color: #333333;
   line-height: 1.5;
 }
+/* Blue Banner for Header */
+.main-header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.header-banner {
+  background: linear-gradient(90deg, #084B7A, #009688);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-banner h1 {
+  color: white !important;
+  font-size: 36px;
+  margin: 0;
+}
